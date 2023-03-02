@@ -1,0 +1,57 @@
+Source: gz-fuel-tools9
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: optional
+Build-Depends: cmake,
+               doxygen,
+               pkg-config,
+               debhelper (>= 11),
+               libgz-cmake3-dev,
+               libgz-common5-core-dev,
+               libgz-msgs10-dev,
+               libgz-tools2-dev,
+               libzip-dev,
+               libjsoncpp-dev,
+               libcurl4-openssl-dev,
+               libyaml-dev,
+               libtinyxml2-dev
+Vcs-Browser: https://github.com/gazebosim/gz-fuel-tools
+Vcs-Git: https://github.com/gazebo-release/gz-fuel-tools9-release
+Standards-Version: 4.5.1
+Homepage: http://gazebosim.org/
+
+Package: libgz-fuel-tools9
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends},
+         gz-tools2
+Multi-Arch: same
+Description: Gazebo fuel-tools classes and functions - Shared library
+ Gazebo Fuel Tools is composed by a client library and command line
+ tools for interacting with Gazebo Fuel servers. These servers host and
+ manage different 3D robotics models.
+ .
+ The package ships the Gazebo fuel libraries
+
+Package: libgz-fuel-tools9-dev
+Architecture: any
+Section: libdevel
+Depends: libgz-cmake3-dev,
+       libgz-common5-core-dev,
+       libgz-msgs10-dev,
+       libgz-tools2-dev,
+       libzip-dev,
+       libjsoncpp-dev,
+       libcurl4-openssl-dev,
+       libyaml-dev,
+       libtinyxml2-dev,
+       libgz-fuel-tools9 (= ${binary:Version}),
+       ${misc:Depends}
+Multi-Arch: same
+Description: Gazebo fuel-tools classes and functions - Development files
+ Gazebo Fuel Tools is composed by a client library and command line
+ tools for interacting with Gazebo Fuel servers. These servers host and
+ manage different 3D robotics models.
+ .
+ The package ships the Gazebo fuel development headers and libraries

@@ -1,0 +1,6 @@
+usr/include/*
+usr/lib/*/*.so
+usr/lib/*/pkgconfig/*.pc
+usr/lib/*/cmake/*-*/*
+usr/share/*/fuel[0-99].yaml
+usr/share/gz/*-fuel_tools[0-99]/*-fuel_tools*.tag.xml
