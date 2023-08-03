@@ -1,3 +1,4 @@
 usr/lib/*/*.so.*
 usr/lib/*/*/*.rb
 usr/share/gz/*/*.yaml
+usr/share/gz/*.completion*/*
