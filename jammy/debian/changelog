@@ -1,3 +1,9 @@
+gz-fuel-tools9 (9.0.0~pre1-1~jammy) jammy; urgency=medium
+
+  * gz-fuel-tools9 9.0.0~pre1-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Wed, 30 Aug 2023 17:25:46 +0000
+
 gz-fuel-tools9 (8.999.999-1~jammy) jammy; urgency=medium
 
   * Stub to be removed after first entry
