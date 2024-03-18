@@ -1,3 +1,9 @@
+gz-fuel-tools9 (9.0.2-1~jammy) jammy; urgency=medium
+
+  * gz-fuel-tools9 9.0.2-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Mon, 18 Mar 2024 13:59:28 -0500
+
 gz-fuel-tools9 (9.0.1-1~jammy) jammy; urgency=medium
 
   * gz-fuel-tools9 9.0.1-1 release
